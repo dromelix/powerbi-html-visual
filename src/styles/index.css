@@ -1,0 +1,10 @@
+.Toastify__toast-container--top-right {
+  top: 16px !important;
+  right: 16px !important;
+}
+
+body.visual-sandbox #sandbox-host {
+  cursor: default;
+  user-select: text;
+  overflow: auto !important;
+}

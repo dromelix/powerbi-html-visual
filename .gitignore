@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.tmp
+webpack.statistics.dev.html
+webpack.statistics.prod.html
+
+src/filterapp

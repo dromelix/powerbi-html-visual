@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "webObject",
+        "displayName": "WebObject",
+        "guid": "webobjectE5259D0983D44680A8F9FE27170CCA57",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "WebObject",
+        "supportUrl": "https://tableauextension.net/support",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "5.4.0",
+    "author": {
+        "name": "webObject",
+        "email": "support@tableauextension.net"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

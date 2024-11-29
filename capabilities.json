@@ -1,0 +1,45 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Values",
+            "name": "values",
+            "kind": "GroupingOrMeasure"
+        }
+    ],
+    "objects": {
+        "general": {
+            "displayName": "General",
+            "displayNameKey": "formattingGeneral",
+            "properties": {
+                "filter": {
+                    "type": {
+                        "filter": true
+                    }
+                }
+            }
+        }
+    },
+    "suppressDefaultTitle": true,
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "values"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "privileges": [
+        {
+            "name": "WebAccess",
+            "essential": true,
+            "parameters": ["*"]
+        }
+    ]
+}
