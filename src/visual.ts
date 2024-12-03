@@ -27,7 +27,6 @@ export class Visual implements IVisual {
         this.updateState = () => {};
 
         const reactRoot = React.createElement(App, {
-            visualHost: this.visualHost,
             updateCallback: (updateFunc: (newState: AppParams) => void) => {
                 this.updateState = updateFunc;
             },
