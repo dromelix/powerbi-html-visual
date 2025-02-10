@@ -17,6 +17,16 @@
                     }
                 }
             }
+        },
+        "filter": {
+            "properties": {
+                "allowedDomains": {
+                    "type": {
+                        "text": true
+                    }
+                }
+
+            }
         }
     },
     "suppressDefaultTitle": true,
