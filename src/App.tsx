@@ -15,9 +15,9 @@ function getQueryParameter(url: string, paramKey: string) {
   return result;
 }
 
-function generateHMAC(secretKey: string, message: string) {
+function generateHMAC(key: string, message: string) {
   const encoder = new TextEncoder();
-  const keyData = encoder.encode(secretKey);
+  const keyData = encoder.encode(key);
   const messageData = encoder.encode(message);
 
   return window.crypto.subtle.importKey(
